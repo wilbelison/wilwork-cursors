@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.1s ease-in-out;
+}
+
+html {
+  color: #333;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+}
+
+.emoji {
+  font-family: "Noto Emoji";
+  font-weight: bolder;
+}
+
+::selection {
+  color: #fff;
+  background-color: #9747ff;
+}
+
+body {
+  margin: 32px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: normal;
+  text-align: center;
+  &:hover {
+    color: #9747ff;
+    .emoji {
+      font-family: "Noto Color Emoji";
+    }
+  }
+}
+
+.label {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  color: #9747ff;
+  font-weight: normal;
+}
+
+#components {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 8px;
+  border: dashed 1px #9747ff;
+  border-radius: 16px;
+  padding: 16px;
+  overflow-x: auto;
+  .variants {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+    button {
+      align-items: center;
+      display: flex;
+      gap: 4px;
+      padding: 8px;
+      border-radius: 4px;
+      font-family: "Noto Sans Mono";
+      font-size: 10px;
+      font-weight: bold;
+      width: 100%;
+      background-color: #fff;
+      border: dotted 1px #9747ff;
+      text-wrap: nowrap;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 2px 8px #00000033;
+        z-index: 1;
+      }
+      &[active] {
+        color: #fff;
+        background-color: #9747ff;
+        border: solid 1px #9747ff;
+      }
+      img {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}
+
+#test-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 240px;
+  border: dotted 1px #ccc;
+  border-radius: 16px;
+  background-color: #fcfcfc;
+  color: #ccc;
+}
