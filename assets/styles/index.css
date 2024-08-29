@@ -25,9 +25,12 @@ html {
 body {
   margin: 32px;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  gap: 16px;
 }
 
 .title {
@@ -45,7 +48,7 @@ body {
 .label {
   text-align: center;
   font-family: "Noto Sans", sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #9747ff;
   font-weight: normal;
 }
@@ -53,13 +56,11 @@ body {
 #components {
   position: relative;
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  flex-direction: column;
   gap: 8px;
   border: dashed 1px #9747ff;
   border-radius: 16px;
   padding: 16px;
-  overflow-x: auto;
   .variants {
     border-radius: 4px;
     display: flex;
@@ -84,6 +85,8 @@ body {
         transform: scale(1.05);
         box-shadow: 0 2px 8px #00000033;
         z-index: 1;
+        background-color: hsl(266, 100%, 98%);
+        border: solid 1px #9747ff;
       }
       &[active] {
         color: #fff;
@@ -99,13 +102,24 @@ body {
 }
 
 #test-area {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 240px;
-  border: dotted 1px #ccc;
   border-radius: 16px;
-  background-color: #fcfcfc;
-  color: #ccc;
+
+  background-image: repeating-linear-gradient(
+      45deg,
+      #efefef 25%,
+      transparent 25%,
+      transparent 75%,
+      #efefef 75%,
+      #efefef
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #efefef 25%,
+      #ffffff 25%,
+      #ffffff 75%,
+      #efefef 75%,
+      #efefef
+    );
+  background-position: 0 0, 4px 4px;
+  background-size: 8px 8px;
 }
