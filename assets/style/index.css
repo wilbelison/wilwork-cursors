@@ -12,16 +12,6 @@ html {
   background-color: #fff;
 }
 
-.emoji {
-  font-family: "Noto Emoji";
-  font-weight: bolder;
-}
-
-::selection {
-  color: #fff;
-  background-color: #9747ff;
-}
-
 body {
   margin: 0;
   padding: 32px;
@@ -31,26 +21,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 10fr;
   gap: 16px;
-}
-
-.title {
-  font-family: "Noto Sans Mono", monospace;
-  font-weight: normal;
-  text-align: center;
-  &:hover {
-    color: #9747ff;
-    .emoji {
-      font-family: "Noto Color Emoji";
-    }
-  }
-}
-
-.label {
-  text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 16px;
-  color: #9747ff;
-  font-weight: normal;
 }
 
 #components {
