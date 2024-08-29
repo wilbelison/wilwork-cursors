@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Emoji:wght@300..700&family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
-.noto-serif { font-family: "Noto Serif", serif; }
+
 .noto-sans { font-family: "Noto Sans", sans-serif; }
 .noto-sans-mono { font-family: "Noto Sans Mono", monospace; }
+.noto-serif { font-family: "Noto Serif", serif; }
 .noto-emoji { font-family: "Noto Emoji", sans-serif; }
 .noto-color-emoji { font-family: "Noto Color Emoji", sans-serif; }
-
-.lighter { font-weight: lighter; }
-.normal { font-weight: normal; }
-.bolder { font-weight: bolder; }

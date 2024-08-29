@@ -1,0 +1,60 @@
+.cursor-default-black { cursor: url(../cursor/default-black.svg) 4 4, auto; }
+.cursor-default-white { cursor: url(../cursor/default-white.svg) 4 4, auto; }
+
+.cursor-design-black { cursor: url(../cursor/design-black.svg) 4 4, auto; }
+.cursor-design-white { cursor: url(../cursor/design-white.svg) 4 4, auto; }
+
+.cursor-designer-blue { cursor: url(../cursor/designer-blue.svg) 4 4, auto; }
+.cursor-designer-magenta { cursor: url(../cursor/designer-magenta.svg) 4 4, auto; }
+.cursor-designer-purple { cursor: url(../cursor/designer-purple.svg) 4 4, auto; }
+
+.cursor-grab-black { cursor: url(../cursor/grab-black.svg) 12 12, auto; }
+.cursor-grab-white { cursor: url(../cursor/grab-white.svg) 12 12, auto; }
+
+.cursor-grabbing-black { cursor: url(../cursor/grabbing-black.svg) 12 12, auto; }
+.cursor-grabbing-white { cursor: url(../cursor/grabbing-white.svg) 12 12, auto; }
+
+.cursor-move-black { cursor: url(../cursor/move-black.svg) 12 12, auto; }
+.cursor-move-white { cursor: url(../cursor/move-white.svg) 12 12, auto; }
+
+.cursor-not-allowed-black { cursor: url(../cursor/not-allowed-black.svg) 5 4, auto; }
+.cursor-not-allowed-white { cursor: url(../cursor/not-allowed-white.svg) 5 4, auto; }
+
+.cursor-pointer-black { cursor: url(../cursor/pointer-black.svg) 10 4, auto; }
+.cursor-pointer-white { cursor: url(../cursor/pointer-white.svg) 10 4, auto; }
+
+.cursor-progress-black { cursor: url(../cursor/progress-black.svg) 5 4, auto; }
+.cursor-progress-white { cursor: url(../cursor/progress-white.svg) 5 4, auto; }
+
+.cursor-resize-tl-br-black { cursor: url(../cursor/resize-tl-br-black.svg) 12 12, auto; }
+.cursor-resize-tl-br-white { cursor: url(../cursor/resize-tl-br-white.svg) 12 12, auto; }
+
+.cursor-resize-tr-bl-black { cursor: url(../cursor/resize-tr-bl-black.svg) 12 12, auto; }
+.cursor-resize-tr-bl-white { cursor: url(../cursor/resize-tr-bl-white.svg) 12 12, auto; }
+
+.cursor-resize-x-black { cursor: url(../cursor/resize-x-black.svg) 12 12, auto; }
+.cursor-resize-x-white { cursor: url(../cursor/resize-x-white.svg) 12 12, auto; }
+
+.cursor-resize-y-black { cursor: url(../cursor/resize-y-black.svg) 12 12, auto; }
+.cursor-resize-y-white { cursor: url(../cursor/resize-y-white.svg) 12 12, auto; }
+
+.cursor-rotate-bl-black { cursor: url(../cursor/rotate-bl-black.svg) 12 12, auto; }
+.cursor-rotate-bl-white { cursor: url(../cursor/rotate-bl-white.svg) 12 12, auto; }
+
+.cursor-rotate-br-black { cursor: url(../cursor/rotate-br-black.svg) 12 12, auto; }
+.cursor-rotate-br-white { cursor: url(../cursor/rotate-br-white.svg) 12 12, auto; }
+
+.cursor-rotate-tl-black { cursor: url(../cursor/rotate-tl-black.svg) 12 12, auto; }
+.cursor-rotate-tl-white { cursor: url(../cursor/rotate-tl-white.svg) 12 12, auto; }
+
+.cursor-rotate-tr-black { cursor: url(../cursor/rotate-tr-black.svg) 12 12, auto; }
+.cursor-rotate-tr-white { cursor: url(../cursor/rotate-tr-white.svg) 12 12, auto; }
+
+.cursor-text-black { cursor: url(../cursor/text-black.svg) 12 12, auto; }
+.cursor-text-white { cursor: url(../cursor/text-white.svg) 12 12, auto; }
+
+.cursor-zoom-in-black { cursor: url(../cursor/zoom-in-black.svg) 12 11, auto; }
+.cursor-zoom-in-white { cursor: url(../cursor/zoom-in-white.svg) 12 11, auto; }
+
+.cursor-zoom-out-black { cursor: url(../cursor/zoom-out-black.svg) 12 11, auto; }
+.cursor-zoom-out-white { cursor: url(../cursor/zoom-out-white.svg) 12 11, auto; }
